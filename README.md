@@ -13,6 +13,7 @@ If there is another process that is running on port 3000, a question will appear
 * npm install react-bootstrap@next bootstrap@5.0.2
 * npm i --save react-select
 
+The repository has a presentation with API examples.
 
 This app has 2 main pages 
 
