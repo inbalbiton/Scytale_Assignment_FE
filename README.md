@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# **Scytale Assignment - FE**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+This project was built using React JS.
+To start, run the "**npm start**" command in the terminal, when you are in the **"scytalefeapi"** folder.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+If there is another process that is running on port 3000, a question will appear in the terminal whether to use another port - press Y.
 
-### `npm test`
+**Npm packages I used:**
+* npm install axios
+* npm install react-bootstrap@next bootstrap@5.0.2
+* npm i --save react-select
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+This app has 2 main pages 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **All Pull Requests Page**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ``Filter By Status``
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you want to filter using different status types, you will see all the existing status types on the server according to which you can filter, selection of all types is equivalent without selection at all - in this situation requests from all status types will be returned
 
-### `npm run eject`
+### ``Filter By Labels``
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you want to filter with different types of labels, you will see all the types of labels available on the server, according to which you can filter, a selection of all types is equivalent without any choice at all - in this situation requests from all types of labels will be returned
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Sorting Results`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+It is possible to sort the results by the "Title" of the request or by the "PR Number" of the request according to the order you choose - ascending order or descending order. The default is sorting by ascending "PR Number"
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## **Insert New Pull Request Page**
 
-## Learn More
+On this page you can enter a new request on the server according to the following parameters:
+* Pull Request Title
+* Pull Request Description
+* Pull Request Author (full name)
+* Pull Request Status, Choice from three status types - Draft, Open, Closed
+* Pull Request Labels
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Note that all parameters must be entered without special characters - only letters and numbers.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

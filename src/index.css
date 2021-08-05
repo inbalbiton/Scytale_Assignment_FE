@@ -8,6 +8,134 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+.header .new-pr-page h1, .header .all-pr-page h1{
+  color:#26a69a;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+.header h1{
+  color:#00796b;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 2%;
+}
+.header{
+  text-align: center;
+}
+
+.main-menu{
+  margin-top: 100px;
+  display:inline;
+}
+.main-menu-op{
+  margin-left: 3%;
+  display:inline-table;
+}
+
+.main-menu-btn{
+  height: 100px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.new-pr-page{
+  text-align: center;
+}
+.new-pr-sub-menu{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.new-pr-sub-menu label{
+  color:#009688;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.new-pr-sub-menu input{
+  height: 40px;
+  width: 35%;
+}
+
+.header button, .all-pr-sub button{
+  background-color:#26a69a;
+  color:white;
+  font-size: 26px;
+  font-weight: bold;
+  height: 60px;
+  width: 180px;
+  border-color: #00838f;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.header button:hover, .all-pr-sub button:hover{
+  background-color: white;
+  color: #26a69a;
+  cursor: pointer;
+}
+#dropdown-basic{
+  height: 40px;
+  color:white;
+  font-size: 18px;
+  background-color: #26a69a;
+  border-radius: 8px;
+  border-color: #00838f;
+}
+
+#dropdown-basic:hover{
+  background-color: white;
+  color: #26a69a;
+  cursor: pointer;
+}
+.all-pr-page{
+  text-align: center;
+}
+.all-pr-sub{
+  margin-top: 2%;
+  font-size: 24px;
+}
+.all-pr-sub label{
+  font-weight: bold;
+  color: #26a69a;
+}
+.all-pr-sub-rb{
+  margin-top: 1%;
+  display: inline;
+}
+.all-pr-sub-rb input{
+  display: inline-table;
+  margin-left: 2%;
+}
+
+.multi-select{
+  width: 35%;
+  margin-left: 30%;
+}
+
+.pr-row, .pr-row-h{
+  display: inline;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.pr-col, .pr-col-h{
+  font-size: 18px;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 9%;
+  display: inline-table;
+}
+
+.pr-row-h{
+  font-weight: bold;
+  font-size: 22px;
+  color: #006064;
+}
+
