@@ -23,7 +23,7 @@ class NewPullRequestPage extends React.Component {
     this.SendNewPullRequest = this.SendNewPullRequest.bind(this);
   }
   ValidInput(input) {
-    var letters = /^[0-9a-zA-Z _-]+$/;
+    let letters = /^[0-9a-zA-Z _-]+$/;
     if (input.match(letters) || input === "") {
       return true;
     }
