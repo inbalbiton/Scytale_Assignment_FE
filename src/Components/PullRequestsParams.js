@@ -56,7 +56,7 @@ class PullRequestsParams extends React.Component {
 
   async GetPullRequests() {    
     this.props.parentCallback([]);
-    var ord = 1;
+    let ord = 1;
     if(this.state.order === 'DESC') ord = -1;
     if(this.state.sortby === 'Sort By') this.state.sortby = 'PR_Number';
     console.log(this.state.status);
