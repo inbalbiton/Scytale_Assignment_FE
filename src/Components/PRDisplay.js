@@ -10,7 +10,7 @@ class PRDisplay extends React.Component{
         };
     }
     ConvertDate(date){
-        var d = new Date(date);
+        let d = new Date(date);
         return d.toDateString();
     }
     render(){
